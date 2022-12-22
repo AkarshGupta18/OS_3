@@ -45,7 +45,7 @@ int main(){
 							}
 							
 							printf("\n");
-							a = *temp;
+							a = *var;
 							printf("%c",*var);
 
 							var++;
