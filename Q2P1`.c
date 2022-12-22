@@ -74,7 +74,7 @@ int main(int argc, char** argv){
             int i=0;
             while(i< 10){
                 int j=0;
-                for(j< 5){
+                while(j< 5){
                     char *c = arr[index];
                     for(int k = 0; k< str_len; k++){
 
