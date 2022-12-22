@@ -14,7 +14,7 @@ int len = 50;
 int main(){
 
 			int shmid;
-			char *shmptr, *temp, *rd;
+			char *shmptr, *var, *rd;
 			key_t key2 = 345;
 
 			shmid = shmget(key2, 1024 , 0666);       
